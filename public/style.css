@@ -1,0 +1,4 @@
+.fc-day-grid-event[data-original-title*="（休）"] * {
+    background-color:lightgreen !important;
+    color:Navy !important;
+}

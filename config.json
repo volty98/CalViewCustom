@@ -1,0 +1,10 @@
+{
+    "plugin_name": "CalViewCustom",
+    "uuid": "11520b72-caff-42b7-bb4b-c5d011d04117",
+    "plugin_view_name": "カレンダービュー キーワード強調",
+    "description": "特定キーワードの文字と背景の配色をカスタムします。",
+    "author":  "Shingo FUKUYA",
+    "version": "0.0.1",
+    "plugin_type": "event,style",
+    "event_triggers": "loading"
+}
