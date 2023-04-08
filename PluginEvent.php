@@ -21,7 +21,7 @@ class PluginEvent extends PluginEventBase
 
         if(empty($this->plugin->getCustomOption("text1")) == false ) $css .= '.fc-day-grid-event[data-original-title*="' . $this->plugin->getCustomOption("text1") . '"] * { background-color:' . $this->plugin->getCustomOption("bg_color1") . ' !important; color:' . $this->plugin->getCustomOption("color1") . ' !important; }';
         if(empty($this->plugin->getCustomOption("text2")) == false ) $css .= '.fc-day-grid-event[data-original-title*="' . $this->plugin->getCustomOption("text2") . '"] * { background-color:' . $this->plugin->getCustomOption("bg_color2") . ' !important; color:' . $this->plugin->getCustomOption("color2") . ' !important; }';
-        if(empty($this->plugin->getCustomOption("text3")) == false ) $css .= '.fc-day-grid-event[data-original-title*="' . $this->plugin->getCustomOption("text3") . '"] * { background-color:' . $this->plugin->getCustomOption("bg_color2") . ' !important; color:' . $this->plugin->getCustomOption("color3") . ' !important; }';
+        if(empty($this->plugin->getCustomOption("text3")) == false ) $css .= '.fc-day-grid-event[data-original-title*="' . $this->plugin->getCustomOption("text3") . '"] * { background-color:' . $this->plugin->getCustomOption("bg_color3") . ' !important; color:' . $this->plugin->getCustomOption("color3") . ' !important; }';
         Storage::put($PLUGIN_DIR . $CSS_FILE, $css);
         return true;
     }
